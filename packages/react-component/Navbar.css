@@ -1,0 +1,46 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* couleur de fond de la barre de navigation */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Ajoutez cette règle pour que le dernier élément s'étende à droite */
+li:last-child {
+    float: right;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.add-button {
+    color: white;
+    cursor:pointer;
+}
+
+.btn-outline-success, .btn-outline-success:active, .btn-outline-success:visited {
+    background-color: #613CB7 !important;
+}
+
+.btn-outline-success:hover
+{
+    background-color: #7859C1 !important;
+}
